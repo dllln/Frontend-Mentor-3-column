@@ -1,0 +1,105 @@
+:Root {
+    /* colors */
+    --brightOrange: hsl(31, 77%, 52%);
+    --darkCyan: hsl(184, 100%, 22%);
+    --extraDarkCyan: hsl(179, 100%, 13%);
+    --transparentWhite: hsla(0, 0%, 100%, 0.75);
+    --lightGray: hsl(0, 0%, 95%);
+}
+
+/* Root Styles */
+
+html {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+body {
+    font-family: "Lexend Deca", sans-serif;
+    font-size: 14px;
+}
+
+/* main styles */
+
+.flex-container {
+    display: flex;
+}
+
+.main-card-wrapper {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    justify-items: center;
+}
+
+.card-1 {
+    background-color: var(--brightOrange);
+}
+
+.card-2 {
+    background-color: var(--darkCyan);
+}
+
+.card-3 {
+    background-color: var(--extraDarkCyan);
+}
+
+h1.title {
+    color: var(--lightGray);
+}
+
+p.subtext {
+    color: var(--transparentWhite);
+}
+
+.button {
+    background-color: #fff;
+    border-radius: 50px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button a#button1 {
+    color: var(--brightOrange);
+}
+
+.button a#button2 {
+    color: var(--darkCyan);
+}
+
+.button a#button3 {
+    color: var(--extraDarkCyan);
+}
+
+.button:hover {
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+
+
+.button:hover a {
+    color: #fff;
+}
+
+
+
+
+
+
+/* Frontend Mentor Styling */
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
